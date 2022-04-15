@@ -1,0 +1,71 @@
+.container {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    
+}
+button {
+  border-radius: 50%;
+  margin: 2em;
+  border: none;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+input.search-bar{
+  border: none;
+  outline: none;
+  padding: 0.1em 0.3em;
+  border-radius: 24px;
+  color: black;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(80%);
+}
+button:hover{
+  background: #7c7c7c6b;
+}
+.card.mt-3 {
+    border-radius: 30px;
+    padding:  2em;
+    max-width: 420px;
+    background: #000000d0;
+    color: white;
+    width: 120%;
+    margin: 1em;
+}
+
+
+#file::-webkit-file-upload-button{
+	visibility: hidden;
+}
+#file , input[type=button] , #Color{
+	width: 90%;
+	height: 70px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 17px;
+	border: 1px solid;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2); 
+	color: #fff; 
+	transition: .5s all;
+}
+#file{
+	width: 84%;
+	height: 55px;
+	padding-top: 23px;
+	padding-left: 20px;
+}
+#file:hover , input[type=button]:hover , #Color:hover{
+	cursor: pointer;
+	background-color: #4287f5;
+}
